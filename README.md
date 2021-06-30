@@ -7,7 +7,7 @@ Dataset: https://www.kaggle.com/adityajn105/flickr8k/activity
 
 * Cleaning and preprocessing the train_test_descriptions
 * Image transform defined with the resizing the images, transforming them to tensors normalizing them for all the pixel values 
-* Building the vocabulary from the descriptions given 
+* Building the vocabulary from the descriptions
 * Using FreqDist function to find out the frequencies of the words in the dataset
 * Removing the words with less than 5 counts 
 * Generating distinct numbers for the vocabulary created above
@@ -22,7 +22,7 @@ Dataset: https://www.kaggle.com/adityajn105/flickr8k/activity
 * Initiating the loader and loading the data
 * Initiating the Encoder, embed size, hidden size, loss criterion and optimizer
 * Train function to train the data given
-* Function to run the train function through the epochs mentioned
+* Function to run the train function through the epochs defined
 * Test Fucntion to generate the image capitons
 
   
